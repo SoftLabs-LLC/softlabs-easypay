@@ -1,27 +1,51 @@
-# Easypay
+# SoftLabs EasyPay
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+**SoftLabs EasyPay** is a minimalist and user-friendly invoice management system designed to streamline the payment process for clients. With a simple interface, EasyPay lets users quickly look up invoices and make payments without unnecessary complexity or feature bloat. Built by SoftLabs, a brand dedicated to creating intuitive, no-nonsense software solutions.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Invoice Lookup**: Clients can easily search for their invoices using a unique ID, ensuring fast access to payment details.
+- **Simple Payment Interface**: EasyPay offers a straightforward interface for invoice payments, keeping the process as easy and intuitive as possible.
+- **Minimalist Design**: Designed with simplicity in mind, EasyPay focuses on essential features without the clutter, allowing for a smooth user experience.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To start using SoftLabs EasyPay, follow these steps:
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Node.js** and **npm**: Make sure you have Node.js and npm installed on your system.
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the Repository**:  
+   `git clone https://github.com/SoftLabs-LLC/SoftLabs-EasyPay.git`
 
-## Running end-to-end tests
+2. **Open Project Directory**
+    Navigate into the project directory.
+   `cd softlabs-easypay`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Install Dependencies**:  
+   Install required packages.  
+   `npm install`
 
-## Further help
+4. **Build the Frontend**:  
+   Compile the Angular frontend.  
+   `npm run build`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. **Launch Isaac**:  
+   Run the main server script and start accepting payments.  
+   `npm start`
+
+## Usage
+
+1. **Client Access**: Clients can enter their invoice ID in the search bar and press “Search” to retrieve invoice details.
+2. **Payment**: Once the invoice is retrieved, clients can proceed to pay directly within the app.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improving EasyPay, please fork the repository and submit a pull request.
+
+## License
+
+SoftLabs EasyPay is licensed under the [MIT License](LICENSE).
